@@ -31,7 +31,7 @@ int main(){
         mid=l+(r-l)/2;
         zu=getZu(h,mid);
         if(zu<=k) {
-            // diff 找大了
+            // diff 找大了或正好
             r=mid;
         }else if(zu>k) {
             // diff 找小了
